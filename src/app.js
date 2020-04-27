@@ -19,8 +19,9 @@ const data = FileSystem.readFileSync(filepath, 'utf8');
 var safe = new Safe(output || filepath, passphrase);
 safe
   .encryptAsync(data)
-  .then((result) => {
-    console.log(result);
+  .then(() => {
+    console.log('Encrypted file created.');
   })
-  .then(() => safe.decryptAsync())
-  .then((result) => console.log(result));
+  .catch((err) => {
+    console.error(err);
+  });
