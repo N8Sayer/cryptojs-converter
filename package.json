@@ -1,0 +1,15 @@
+{
+  "name": "cryptojs-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "demo": "node src/app.js --output=example-files/encrypted-example.csv --passphrase=1a2b3c4d --filepath=example-files/example.csv"
+  },
+  "author": "Nate Sargent",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "yargs": "^15.3.1"
+  }
+}
