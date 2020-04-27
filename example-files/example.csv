@@ -1,2 +1,2 @@
 PC ID,Location ID,Instance ID,Patient First Name,Patient Last Name,Patient ID,Appointment ID,Appointment Time and Date,Appointment Type,Appointment Status,Cell Number,Email,SMS status,Email status
-1,4569,localhost,janet,xuan,521337,215217,2018-08-20 15:15:00,Clean and Check,Confirmed,3254453453,,1,1
+1,4569,localhost,jane,smith,521337,215217,2018-08-20 15:15:00,Clean and Check,Confirmed,3334445555,,1,1
